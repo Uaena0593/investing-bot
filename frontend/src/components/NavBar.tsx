@@ -17,6 +17,9 @@ const NavBar = () => {
             <Link to="/about" className="text-black no-underline text-xl">
               about
             </Link>
+            <Link to = '/signup'>
+                holy poggers
+            </Link>
           </div>
         </div>
       </nav>
