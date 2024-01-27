@@ -1,7 +1,7 @@
 import express from 'express'
-import bodyParser from 'body-parser'
-import cors from 'cors'
+const app = express()
+const PORT = process.env.PORT || 3001;
 
-const app = express();
-app.use(cors())
-app.use(bodyParser())
+app.listen(3001,() =>{
+    console.log("Listening on port 3001");
+});
