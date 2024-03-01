@@ -4,20 +4,16 @@ import { Link } from "react-router-dom"
 const NavBar = () => {
   return (
     <>
-    <nav className="p-4 bg-colors-black1">
+    <nav className="ml-10 p-4 bg-colors-black1">
         <div className="container mx-auto flex justify-between items-center padding">
-          <div className="flex-shrink-0">
-            <span className="text-black text-xl">time toi make some money!!!!!!</span>
-          </div>
           <div className="flex items-center space-x-12">
-            <input type='text' placeholder="find stock" className="pl-5 h-10 w-96 border-transparent rounded-full focus:outline-none" />
-            <Link to="/" className="text-black no-underline text-xl">
+            <Link to="/" className="text-white no-underline text-lg">
               home
             </Link>
-            <Link to="/about" className="text-black no-underline text-xl">
+            <Link to="/about" className="text-white no-underline text-lg">
               about
             </Link>
-            <Link to = '/signup'>
+            <Link to = '/signup' className = "text-white text-lg">
                 holy poggers
             </Link>
           </div>
